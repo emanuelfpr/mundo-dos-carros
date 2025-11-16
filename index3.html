@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo dos Carros - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1>Mundo dos Carros</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="index2.html">Sobre</a></li>
+                    <li><a href="index3.html" class="ativo">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="contato" class="container">
+            <h2>Entre em Contato</h2>
+            <div class="contato-container">
+                <div class="info-contato">
+                    <h3>Informações de Contato</h3>
+                    <p>Estamos sempre disponíveis para responder suas dúvidas e receber suas sugestões.</p>
+                    
+                    <ul>
+                        <li><strong>Endereço:</strong> Av. Europa - Pinheiros,São Paulo, SP</li>
+                        <li><strong>Telefone:</strong> (21) 2332-4360</li>
+                        <li><strong>E-mail:</strong> contato@mundodoscarros.com</li>
+                        <li><strong>Horário de Atendimento:</strong> Segunda a Sexta, 9h às 18h</li>
+                    </ul>
+                    
+                    <h3>Redes Sociais</h3>
+                    <div class="redes-sociais">
+                        <a href="#">Facebook</a>
+                        <a href="#">Instagram</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">YouTube</a>
+                    </div>
+                </div>
+                
+                <div class="formulario-contato">
+                    <h3>Envie sua Mensagem</h3>
+                    <form>
+                        <div class="campo-form">
+                            <label for="nome">Nome:</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        
+                        <div class="campo-form">
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="campo-form">
+                            <label for="assunto">Assunto:</label>
+                            <select id="assunto" name="assunto">
+                                <option value="">Selecione um assunto</option>
+                                <option value="duvida">Dúvida</option>
+                                <option value="sugestao">Sugestão</option>
+                                <option value="critica">Crítica</option>
+                                <option value="parceria">Proposta de Parceria</option>
+                            </select>
+                        </div>
+                        
+                        <div class="campo-form">
+                            <label for="mensagem">Mensagem:</label>
+                            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="campo-form">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <label for="newsletter">Desejo receber as novidades</label>
+                        </div>
+                        
+                        <button type="submit">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mundo dos Carros. Todos os direitos reservados.</p>
+            <p>Desenvolvido por Emanuel Ribas</p>
+        </div>
+    </footer>
+</body>
+</html>
